@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>
+            Assignment1
+        </title>
+
+        <style>
+            div{
+                text-align: left;
+                background-color: cyan;
+                margin: 200px;
+                align-items: center;
+                align-content: baseline;
+                padding-left: 10px;
+                width: 700px;
+            }
+            h1{
+                border-style: double;
+                border-width: 2px;
+                margin: 20px;
+                padding: 25px;
+                text-align: center;
+            
+            }
+            input[type=number], select {
+               width: 10%;
+               padding: 5px;
+            }
+            label {
+                width: 200px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+
+    <body>
+    <center>
+        <div>
+            <br>
+            <h1> Student Registration Form</h1>
+
+            <form action="new.html">
+                <p>
+                    <label for="Name">Name :</label>
+                    <input type="text" placeholder="Enter full name" size=36">
+                </p>
+                <p>
+                    <label for="Father's Name">Father's Name :</label>
+                    <input type="text" size=36">
+                </p>
+                <p>
+                    <label for="Mother's Name">Mother's Name :</label>
+                    <input type="text" placeholder="Enter full name" size=36">
+                </p>
+                <p>
+                    <label for="PhoneNumber">Phone Number :</label>
+                    <input type="text" placeholder="017xxxxxxxx" pattern="[017]{3}[0-9]{8}" required size=36">
+                </p>
+                <p>
+                    <label for="Email">Email :</label>
+                    <input type="email" placeholder="sample@example.com" size=36">
+                </p>
+                <p>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="x">Male
+                <input type="radio" name="x">Female
+                <input type="radio" name="x">Other
+                </p>
+                <p>
+                    <label for="DOB">Date Of Birth :</label>
+                    <input type="number" name="date" size="2"> -
+                    <input type="number" name="month" size="2"> -
+                    <input type="number" name="year" size="4"> <i>(dd-mm-yyyy)</i>
+                </p>
+                <p>
+                    <label for="address">Address : </label>
+                    <input type="text" placeholder="Street -  House -   Road -" size=36">
+                </p>
+                <p>
+                    <label for="BloodGrp">Blood Group :</label>
+                    <select name="select">
+                        <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B-</option>
+                        <option value="">AB+</option>
+                        <option value="">AB-</option>
+                        <option value="">O+</option>
+                        <option value="">O-</option>
+                    </select>
+                
+                </p>
+
+                <p>
+                    <label for="dept">Department :</label>
+                    <input type="radio" name="x">CSE
+                    <input type="radio" name="x">EEE
+                    <input type="radio" name="x">BBA
+                </p>
+                <p>
+                <label for="course">Course :</label>
+                <input type="checkbox" name="">C
+                <input type="checkbox" name="">C++
+                <input type="checkbox" name="">Java
+                <input type="checkbox" name="">AI
+                <input type="checkbox" name="">Machine Learning
+                <input type="checkbox" name="">Robotics
+                </p>
+
+                <p>
+                    <label for="photo">Photo :</label>
+                    <input type="file">
+                </p>
+                <br><br><br>
+                <a href="new.html">Submit</a>
+                <input type="reset">
+
+            </form>
+        
+        </div>
+    </center>
+    </body>
+
+
+</html>
