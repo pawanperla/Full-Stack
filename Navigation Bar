@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            #x {
+                background-color: black;
+                padding: 20px;
+                border-radius: 40px;
+                margin: 10px 10px 10px 10px;
+                position: fixed;
+                width: 1365px;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+                padding: 20px;
+                margin-left: 10px;
+            }
+
+            input{
+                float: right;
+                margin-right: 50px;
+                border-radius: 20px;
+                width: 280px;
+                padding: 5px;
+            }
+            a:hover{
+                color: red;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+
+    
+        
+        <div id="x">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact Us</a>
+            <input type="text" placeholder="Search This website">
+        </div>
+        
+    </body>
+</html>
