@@ -1,0 +1,97 @@
+div {
+    align-items: end;
+
+}
+
+#img1 {
+    float: left;
+}
+
+ p{
+    color:red;
+    font-weight: bold;
+ }
+
+ #abc{
+    text-align: left;
+    background-color: white;
+    margin-left:400px;
+    align-items: center;
+    padding-left: 15px;
+    border: 2px solid pink;
+    width: 500px;
+    border-radius: 10px;
+}
+
+ h1 {
+    color: green;
+ }
+
+ label {
+    width: 200px;
+    display: inline-block;
+ }
+
+ input[type=text] , input[type=password] {
+    border-style: solid;
+    border-color: pink;
+    width: 200px;
+ }
+
+ button {
+    padding: 5px;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 60px;
+}
+
+#b1:hover {
+    color: black;
+}
+
+a {
+    margin-left: 330px;
+    color: black;
+    opacity: 0.5;
+}
+
+#refresh {
+    margin-left: 35px;
+}
+
+#captcha {
+    width: 80px;
+    border: 2px brown solid;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#hr1{
+    color: rgb(127, 24, 41);
+}
+
+#cap {
+    color: black;
+}
+#header {
+    margin-left: 420px;
+    padding: 35px;
+    text-align:left;
+}
+
+img {
+    float: left;
+}
+
+#pqr{
+    color: rgb(185, 36, 61);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#paw {
+    color: rgb(55, 157, 55);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
