@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calci.css">
+    </head>
+    <body> 
+        <h1>Calculator</h1>
+    <div class="calc">
+    <input type="text" id="res" readonly>
+        <table>
+            <tr>
+                <td><button onclick="clearResult()">AC</button></td>
+                <td><button onclick="backspace()">⤬</button></td>
+                <td></td>
+                <td><button onclick="operator('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="operand(7)">7</button></td>
+                <td><button onclick="operand(8)">8</button></td>
+                <td><button onclick="operand(9)">9</button></td>
+                <td><button onclick="operator('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="operand(4)">4</button></td>
+                <td><button onclick="operand(5)">5</button></td>
+                <td><button onclick="operand(6)">6</button></td>
+                <td><button onclick="operator('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="operand(1)">1</button></td>
+                <td><button onclick="operand(2)">2</button></td>
+                <td><button onclick="operand(3)">3</button></td>
+                <td><button onclick="operator('+')">+</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button onclick="operand(0)">0</button></td>
+                <td></td>
+                <td><button onclick="calc()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    </body>
+<script src="calci.js"></script>
+
+</html>
