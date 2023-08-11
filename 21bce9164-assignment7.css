@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+#formcon {
+    background-color: rgb(228, 125, 142);
+    height: auto;
+    margin-top: 140px;
+    /* text-align: center; */
+    align-items: center;
+}
+label {
+    display: inline-block;
+    width: 200px;
+    margin-left: 440px;
+    color: blue;
+}
+input[type=text],input[type=password],input[type=date],input[type=file] {
+    padding: 8px;
+    height: 40px;
+    margin-top: 10px;
+    width: 400px;
+}
+input[type=submit] {
+    padding: 5px;
+    margin-top: 10px;
+    /* margin-left: 650px; */
+    height: 40px;
+    width: 100px;
+}
+.x {
+    color: red;
+}
+span {
+    color: darkred;
+}
