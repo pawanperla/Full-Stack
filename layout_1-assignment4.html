@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>layout1</title>
+        <style>
+
+            #con {
+                display: grid;
+                margin: 20px 20px 20px 20px;
+                grid-gap: 5px;
+                height: 80vh;
+                width: 80vh;
+                grid-template-rows: 0.1fr 0.3fr 0.3fr 0.1fr ;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                grid-template-areas: 'H H H H'
+                                     'A A N AD'
+                                     'A A N AD'
+                                     'F F F F'
+            }
+
+            .x{
+                background-color: rgb(255, 204, 0);
+                padding: 30px;
+            }
+
+            #h {
+                grid-area: H;
+            }
+
+            #a {
+                grid-area: A;
+            }
+
+            #n {
+                grid-area: N;
+            }
+
+            #ad {
+                grid-area: AD;
+            }
+            
+            #f {
+                grid-area: F;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="con">
+            <div class="x" id="h">Header</div>
+            <div class="x" id="a">Article</div>
+            <div class="x" id="n">Nav</div>
+            <div class="x" id="ad">Ads</div>
+            <div class="x" id="f">Footer</div>
+        </div>
+    </body>
+</html>

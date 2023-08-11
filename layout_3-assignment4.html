@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>layout3</title>
+        <style>
+
+            #con {
+                display: grid;
+                margin: 10px;
+                height: 80vh;
+                width: 100px;
+                grid-gap: 2px;
+                grid-template-rows: .3fr 3fr 2fr 2fr;
+                grid-template-columns: 2fr 3fr 3fr 3fr;
+                grid-template-areas: 'N N N N'
+                                     'S M M M'
+                                     'S C1 C2 C3'
+                                     'S F F F';
+            }
+
+            .x {
+                padding: 10px;
+            }
+
+            #n {
+                grid-area: N;
+                background-color: rgb(174, 250, 227);
+                text-align: center;
+            }
+            #s {
+                grid-area: S;
+                background-color: rgb(140, 237, 237);
+                text-align: center;
+            }
+            #m {
+                grid-area: M;
+                text-align: center;
+                background-color: skyblue;
+            }
+            #c1 {
+                grid-area: C1;
+                background-color: rgb(171, 237, 171);
+                text-align: center;
+            }
+            #c2 {
+                grid-area: C2;
+                text-align: center;
+                background-color: rgb(164, 233, 223);
+            }
+            #c3 {
+                grid-area: C3;
+                text-align: center;
+                background-color: lightgreen;
+            }
+            #f {
+                grid-area: F;
+                text-align: center;
+                background-color: rgb(134, 176, 134);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="con">
+            <div class="x" id="n">NAVBAR</div>
+            <div class="x" id="s">SIDEBAR</div>
+            <div class="x" id="m">MAIN</div>
+            <div class="x" id="c1">CONTENT1</div>
+            <div class="x" id="c2">CONTENT2</div>
+            <div class="x" id="c3">CONTENT3</div>
+            <div class="x" id="f">FOOTER</div>
+        </div>
+    </body>
+</html>
